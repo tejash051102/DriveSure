@@ -1,0 +1,31 @@
+{
+  "name": "car-insurance-management-backend",
+  "version": "1.0.0",
+  "description": "Backend API for the DriveSure",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.8",
+    "mongoose": "^8.24.0",
+    "morgan": "^1.10.0",
+    "multer": "^2.1.1",
+    "nodemailer": "^8.0.7",
+    "pdfkit": "^0.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
