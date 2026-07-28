@@ -181,7 +181,7 @@ const ProjectPortfolio = () => {
         <div className="absolute left-1/2 top-16 h-72 w-72 -translate-x-1/2 rounded-full bg-cyan-400/10 blur-3xl" />
         <div className="portfolio-nav relative mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-5 md:px-8">
           <div className="flex items-center gap-3">
-            <span className="flex h-12 w-12 items-center justify-center overflow-hidden rounded-xl border border-cyan-300/25 bg-cyan-300/10 shadow-lg shadow-cyan-950/30 radius-2xl ring-1 ring-cyan-300/20 backdrop-blur">
+            <span className="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-cyan-300/25 bg-cyan-300/10 shadow-lg shadow-cyan-950/30 ring-1 ring-cyan-300/20 backdrop-blur">
               <img src="/drivesure-logo.png" alt="DriveSure" className="h-12 w-12 rounded-2xl object-contain" />
             </span>
             <div>

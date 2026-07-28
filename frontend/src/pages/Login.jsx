@@ -458,8 +458,8 @@ const Login = ({ onAuth }) => {
           )}
 
           <form onSubmit={submit} style={{ display: "flex", flexDirection: "column", gap: "18px" }}>
-            <Field style={{ marginBottom: "0", color: "transparent" }} label="Email address" id="email" type="email" name="email" value={form.email} onChange={updateField} required />
-            <Field style={{ marginBottom: "0", color: "transparent" }} label="Password" id="password" type="password" name="password" value={form.password} onChange={updateField} required />
+            <Field label="Email address" id="email" type="email" name="email" value={form.email} onChange={updateField} required />
+            <Field label="Password" id="password" type="password" name="password" value={form.password} onChange={updateField} required />
 
             <SubmitButton loading={loading} label="Sign in" />
           </form>
