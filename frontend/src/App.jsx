@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Navigate, Route, Routes, useLocation, useNavigate } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
-import AIChatAssistant from "./components/AIChatAssistant.jsx";
 import ProtectedRoute from "./components/ProtectedRoute.jsx";
 import Sidebar from "./components/Sidebar.jsx";
 import Claims from "./pages/Claims.jsx";
@@ -121,7 +120,6 @@ const AppLayout = ({ onLogout }) => {
               <Route path="*" element={<Navigate to="/app" replace />} />
             </Routes>
           </main>
-          <AIChatAssistant />
         </div>
       </div>
     </ProtectedRoute>
